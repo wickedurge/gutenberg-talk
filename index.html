@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,243 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+                    <h1>Guten Tag Gutenberg!</h1>
+                </section>
+                <section>
+                    <img src="./images/steve.jpg" alt="Steve Guttenberg">
+                </section>
+				<section data-background="./images/lyle.png">
+                    <p>An introduction to WordPress Gutenberg Editor</p>
+                    <p>by RJ Mey</p>
+                    <p><small>Web developer, American Expedition Vehicles</small></p>
+                    <p>Presented Febuary 12<sup>th</sup> 2018 </p>
+                
+                </section>
+                
+                <section><!--what is it-->
+                    <section>
+                        <h2>What is Gutenberg?</h2>
+                    </section>
+                     <section>
+                      I don't want to over-sell it, but Gutenberg is basically better than 10 superbowls.
+                  </section>
+                  <section data-background="./images/superbowl.gif">
+                      
+                    </section>
+                   <section>
+                        <p>At its most basic, Gutenberg is a new editor for WordPress</p>
+                    </section>
+                   
+                    <section>
+                        <p>The main principle of Gutenberg is blocks. There are sections of contentent that be edited with a WYSIWYG editor</p>
+                        <img src="./images/Maggie_Blocks.jpg" alt="Building Blocks">
+                    </section>
+                    <section>
+                        <strong>W.Y.S.I.W.Y.G.</strong>:
+                        <em>A tech term dating back to the 90s. "What you see, is what you get".</em>
+                    </section>
+                       <section>
+
+                           <p>Demonstration time</p>
+                            <img src="./images/demo.jpg" alt="How gravity works">
+                    </section>
+                </section><!--what is it-->
+                   
+               <section>
+                  <section>
+                   <h2>What is Gutenberg Changing?</h2>                      
+                  </section>
+                 
+             
+                   <section>
+                       <p>WordPress has had an internal editor called TinyMCE</p>
+                       <img src="./images/tinymce.png" alt="Tiny MCE editor in WordPress">
+                   </section>
+                   <section>
+                       <p>TinyMCE has served the WordPress community well for a number of years, but it's not the best tool for page layouts</p>
+                   </section>
+                   <section>
+                       <p>We've had to jam lots of html into the WordPress editor over the years, and it gets messy.</p>
+                       <img src="./images/messymarkup.png" alt="Messy markup in the WordPress editor">
+                   </section>
+                   <section>
+                       <h2>Gutenberg cleans this up</h2>
+                       <img src="./images/cleaner.png" alt="Cleaner Markup">
+                   </section>
+                    
+                 
+
+                    </section><!--what is it-->
+                
+                
+                
+                <section><!--why care-->
+                    <section>
+                        <h2>Why should we care?</h2>
+                    </section>
+                    <section>
+                        This looks a lot like page builders that already exist
+                            <ul>
+                                <li>Beaver Builder</li>
+                                <li>WP Bakery Page Builder (Visual Composer)</li>
+                                <li>Page Builder by Site Origin</li>
+                            </ul>
+                    </section>
+                    <section>
+                        Page builders can be a great tool for WordPress users who don't have coding experience.
+                    </section>
+                    <section>
+                        But they come with some disadvantages
+                            <ul>
+                                <li>Page loading times can suffer</li>
+                                <li>They cost money</li>
+                                <li>You're locked in</li>
+                            </ul>
+                    </section>
+                    <section>
+                        What do you mean locked in?
+                        <img src="./images/homer-simpson-trapped.jpg" alt="Homer Simpsons trapped">
+                    </section>
+                    <section>
+                        Moving the content from a page builder to another site is very difficult. Your content and it's presentation become mixed together, and it's very hard to extract.
+                    </section>
+                    <section>
+                        <p>Demonstration </p>
+                        <img src="./images/ralph2.jpg" alt="Ralph Wiggum with toys">
+                    </section>
+             
+                    <section>
+                        I've got it! I'll just build everything using PHP, CSS, a pile of custom fields, and some jQuery to smoothen out the rough edges!
+                    </section>
+                    <section>
+                        <p>I do this. It's been how WordPress developers have been working for a while now, and it has some disadvantages.</p>
+                        <ul>
+                            <li>The user has very little control</li>
+                            <li>Page template files become a mess</li>
+                            <li>We're locking ourselves in again</li>
+                        </ul>
+                    </section>
+                
+                </section><!--why care-->
+                
+                <section><!--How is gutengerg so special-->
+                    <section>
+                        <h2>What makes Gutenberg so special?</h2>
+                    </section>
+                    <section>
+                        It boils down to one thing: standards.
+                    </section>
+                    <section>
+                        What happens if we turn off Gutenberg?
+                    </section>
+                
+                    <section>
+                        Gutenberg lets us not only have the kind of editing exprience that we need, it does it in a way that is open.
+                    </section>
+                    <section>
+                        When Gutenberg is done, we'll be able to move content between Gutenberg compatible themes with few modifications.
+                    </section>
+                    <section>
+                        Because Gutenberg mostly just adds html comments to our markup, our content is pretty separated from our presentation in a very portable way
+                    </section>
+                </section><!--how special-->
+                
+               <section>
+                    <section><h2>Unfortunately it hasn't been all fun and games</h2></section>
+                    <section data-background="./images/torches.gif">
+                        Some users are very unhappy with Gutenberg.
+                        <small>Sorry about the low-res</small>
+                    </section>
+                    <section>
+                        Gutenberg could break a lot of older WordPress sites.
+                        <img src="./images/bentwookie.jpg" alt="I bent my Wookie">
+                    </section>
+                    <section>
+                        Remember all those weird hacks and gizmos we've been using?
+                        <p><small>About that...</small></p>
+                    </section>
+                    <section>
+                        Because Gutenburg is changing <em>so</em> much, in such a drastic way, we're not really sure how it's going to go.
+                    </section>
+                </section>
+                <section><!--What does this mean for devs-->
+                    <section>
+                        <h3>What does this mean for WordPress theme developers?</h3>
+                        <img src="./images/computerguy.gif" alt="Computer Guy">
+                    </section>
+                    <section>
+                        <p>We've been thrown into chaos and it's wonderful</p>
+                        <img src="./images/endisnear.jpg" alt="The end is near">
+                    </section>
+                    <section>
+                        <p>I know that this seems scary, but don't panic</p>
+                        <img src="./images/chillbart.jpg" alt="Chill Bart">
+                    </section>
+                    <section>
+                        <p>It's going to be better for the users in the long run, plus this is a unique opportunity to learn new skills</p>
+                        <small>Also if you can learn this stuff now, you'll be one step ahead of everyone who waits.</small>
+                    </section>
+                    <section>
+                        <h2>Oh yeah. Learn JavaScript</h2>
+                        <img src="./images/frinkcomputer.png" alt="Frink at a computer">
+                    </section>
+                    
+                </section><!--what for devs-->
+                
+                <section><!--How can I help-->
+                   <section>
+                       <h2>How can I help?</h2>
+                   </section>
+                   <section>
+                       1. Download Gutenberg and try it out.
+                   </section>
+                   <section>
+                       But be careful. Gutenberg isn't ready for prime time yet.
+                   </section>
+                   <section>
+                       2. Complain (constructively)
+                   </section>
+                   <section>
+                      <p>Don't whine!</p>
+                       <img src="./images/whininghomer.gif" alt="No Whining">
+                   </section>
+                   <section>
+                       <p>The Gutenberg development team has taken a lot of flack.</p>
+                       <small>Remember that it's under construction</small>
+                       <div><img src="./images/simpsons-construction.jpeg" alt="Under Construction"></div>
+                   </section>
+                   <section>
+                       <p>Just because you see a huge error, doesn't mean that nobody is going to fix it.</p>
+                       
+                   </section>
+                    
+                </section>
+                
+                <section>
+                    <section>
+                        <h2>Resources</h2>
+                        <ul>
+                            <li><a href="https://wordpress.tv/2017/12/10/morten-rand-hendriksen-gutenberg-and-the-wordpress-of-tomorrow/">Morten Rand-Hendriksen: Gutenberg and the WordPress of Tomorrow</a></li>
+                            <li><a href="https://github.com/WordPress/gutenberg">Project Gutenberg on Github</a></li>
+                            <li><a href="https://poststatus.com/interview-matt-mullenweg-wordpress-ecosystem-draft-podcast/">Interview with Matt Mullenweg on the post status podcast</a></li>
+                            <li><a href="https://storify.com/bph/wordpress-gutenberg-early-comments#de82e7">Gutenberg Times - a Gutenberg new aggregator</a></li>
+                
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Super Cool News!</h3>
+                        
+                    </section>
+                    <section>
+                        Zac Gordon has created a promo code just for people at this MeetUp!
+                    </section>
+                    <section>
+                        Special Page here: https://gutenberg.courses/wpdetroit/
+                    </section>
+                </section>
+                
+                
 			</div>
 		</div>
 
